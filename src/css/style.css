@@ -1,0 +1,32 @@
+ul > li {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  list-style: none;
+  display: flex;
+
+}
+
+ul {
+  margin: 10px;
+  padding: 10px;
+}
+
+ul > li > div.info-wrapper {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ul > li > div.viewer-wrapper {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
